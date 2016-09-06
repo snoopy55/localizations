@@ -6,11 +6,11 @@
 <!ENTITY password.label                  "Passwort:">
 <!ENTITY password.accesskey              "P">
 <!ENTITY password.placeholder              "Passwort">
-<!ENTITY password.text                   "Freiwillig, wird zur Bestätigung des Benutzernamens verwendet">
+<!ENTITY password.text                   "Optional, wird für die Bestätigung des Benutzernamens gebraucht">
 
-<!ENTITY accountInformation.label        "Kontenangaben">
+<!ENTITY accountInformation.label        "Kontoangaben">
 <!ENTITY outgoing.label                  "Postausgang-Server:">
-<!ENTITY noEncryption.label              "Keine Verbindungssicherheit">
+<!ENTITY noEncryption.label              "Keine sichere Verbindung">
 <!ENTITY starttls.label                  "STARTTLS">
 <!ENTITY sslTls.label                    "SSL/TLS">
 
@@ -24,14 +24,14 @@
 <!ENTITY cancel.accesskey                "b">
 <!ENTITY continue.label                  "Weiter">
 <!ENTITY continue.accesskey              "W">
-<!ENTITY startOver.label                 "Neu beginnen">
+<!ENTITY startOver.label                 "Von vorne anfangen">
 <!ENTITY startOver.accesskey             "N">
 <!ENTITY stop.label                      "Stopp">
 <!ENTITY stop.accesskey                  "S">
 <!-- LOCALIZATION NOTE (retest.label): This is the text that is
      displayed on the button which will re-guess the account configuration,
      taking into account the settings the user has changed. -->
-<!ENTITY retest.label                    "Konfiguration erneut testen">
+<!ENTITY retest.label                    "Konfiguration erneut überprüfen">
 <!ENTITY retest.accesskey                "K">
 <!ENTITY edit.label                      "Bearbeiten">
 <!ENTITY edit.accesskey                  "B">
@@ -46,7 +46,7 @@
 <!-- LOCALIZATION NOTE (confirmWarning.label): If there is a security
      warning on the outgoing server, then the user will need to check a
      checkbox beside this text before continuing. -->
-<!ENTITY confirmWarning.label            "Ich verstehe die Risiken.">
+<!ENTITY confirmWarning.label            "Ich bin mir den Risiken bewusst.">
 <!ENTITY confirmWarning.accesskey        "e">
 <!-- LOCALIZATION NOTE (createAccount.label): If there is a security warning
      on the incoming or outgoing servers, then the page that pops up will
@@ -60,14 +60,14 @@
 <!ENTITY changeSettings.label            "Einstellungen ändern">
 <!ENTITY changeSettings.accesskey        "n">
 
-<!ENTITY pb.contactYourProvider.description "&brandShortName; kann es Ihnen mit der vorgenommenen Konfiguration ermöglichen, auf Ihre E-Mails zuzugreifen. Dennoch sollten Sie Ihren Administrator oder E-Mail-Provider wegen dieser unsachgemäßen Verbindungen ansprechen.">
+<!ENTITY pb.contactYourProvider.description "&brandShortName; kann aufgrund der vorgenommenen Konfiguration auf Ihre E-Mails zugreifen. Sie sollten sich wegen dieser unsachgemäßen Verbindung an Ihren Administrator oder E-Mail-Provider wenden.">
 
-<!ENTITY insecureServer.tooltip.title    "Warnung! Dies ist ein unsicherer Server.">
-<!ENTITY insecureServer.tooltip.details  "Klicken Sie auf den Kreis für weitere Details.">
+<!ENTITY insecureServer.tooltip.title    "Warnung! Hierbei handelt es sich um einen Server, der nicht sicher ist.">
+<!ENTITY insecureServer.tooltip.details  "Klicken Sie auf den Kreis, um weitere Informationen zu erhalten.">
 
-<!ENTITY insecureUnencrypted.description "Ihre E-Mails und Passwörter werden unverschlüsselt übertragen. Beides könnte daher einfach von Dritten gelesen werden. &brandShortName; kann Ihre Nachrichten abrufen, aber Sie sollten Ihren E-Mail-Provider kontaktieren, ob eine gesicherte Serververbindung möglich ist.">
-<!ENTITY insecureSelfSigned.description  "Der Server verwendet ein Zertifikat, dem nicht vertraut werden kann. Daher kann man nicht sicher sein, dass niemand die Datenübertragung zwichen &brandShortName; und dem Server abfängt. &brandShortName; kann Ihre Nachrichten abrufen, aber Sie sollten Ihren E-Mail-Provider dazu auffordern die Server mit einem gültigen Zertifikat zu konfigurieren.">
-<!ENTITY secureServer.description        "Glückwunsch! Dies ist eine gesicherte Serververbindung.">
+<!ENTITY insecureUnencrypted.description "Ihre E-Mails und Passwörter werden unverschlüsselt übertragen. Es wird Dritten leicht gemacht sie zu lesen. &brandShortName; kann Ihre Nachrichten abrufen. Sie sollten Ihren E-Mail-Provider dahingehend kontaktieren, ob eine sichere Serververbindung möglich ist.">
+<!ENTITY insecureSelfSigned.description  "Der Server verwendet ein Zertifikat, das nicht vertrauenswürdig ist. Es kann aus diesem Grund nicht davon ausgegangen werden, dass niemand die Datenübertragung zwichen &brandShortName; und dem Server abfängt. &brandShortName; kann Ihre Nachrichten abrufen. Sie sollten Ihren E-Mail-Provider dazu auffordern, die Server mit einem gültigen Zertifikat zu konfigurieren.">
+<!ENTITY secureServer.description        "Herzlichen Glückwunsch! Eine sichere Serververbindung wurde erstellt.">
 
 <!ENTITY pb.identity.title "Identität">
 <!ENTITY pb.name.label    "Ihr Name">
@@ -75,12 +75,12 @@
 <!ENTITY pb.password.label "Passwort">
 <!ENTITY pb.serverinfo.title "Server-Informationen">
 <!ENTITY pb.username.label   "Benutzername">
-<!ENTITY pb.incoming.label "Empfangender Server">
-<!ENTITY pb.servername.label "Server Name">
-<!ENTITY pb.servertype.label "Typ">
+<!ENTITY pb.incoming.label "Posteingangs-Server">
+<!ENTITY pb.servername.label "Name des Servers">
+<!ENTITY pb.servertype.label "Art">
 <!ENTITY pb.serverport.label "Port">
 <!ENTITY pb.serversecurity.label "Sicherheit">
-<!ENTITY pb.outgoing.label "Sendender Server">
+<!ENTITY pb.outgoing.label "Postausgangs-Server">
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the account
      creation wizard, which specifies the width and height in em units of the dialog.
      Localizers ONLY can increase these widths if they are having difficulty getting
@@ -100,7 +100,7 @@
      this window for en-US. -->
 <!ENTITY pb.macEmailWizard.size "width: 85ch;">
 
-<!ENTITY pbProfileInformation.label "Information zum Profil">
+<!ENTITY pbProfileInformation.label "Profil-Informationen">
 <!ENTITY pbManualSetup.label "Manuelle Einstellungen">
 
 
@@ -108,14 +108,14 @@
 entities below were automatically added by l10nmerge
 -->
 
-<!ENTITY important.label "IMPORTANT:">
-<!ENTITY learnMore.label "Learn more...">
+<!ENTITY important.label "WICHTIG:">
+<!ENTITY learnMore.label "Erfahren Sie mehr...">
 
 
 <!--
 entities below were automatically added by l10nmerge
 -->
 
-<!ENTITY pb.displayname.label "Description:">
-<!ENTITY displayname.placeholder         "Work, Personal, etc.">
+<!ENTITY pb.displayname.label "Beschreibung:">
+<!ENTITY displayname.placeholder         "Arbeit, Privat, usw.">
 <!ENTITY displayname.accesskey           "D">
